@@ -1,0 +1,7 @@
+This module is mod_proxy for WebSocket.
+
+Usage:
+  Write this in your httpd.conf.
+
+  # Depends: proxy
+  LoadModule proxy_websocket_module /usr/lib/apache2/modules/mod_proxy_websocket.so
